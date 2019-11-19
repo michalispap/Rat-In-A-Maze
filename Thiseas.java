@@ -73,7 +73,7 @@ public class Thiseas {
                 visited[a][b] = false;
             }
         }
-        StringStackImpl<int[]> s = new StringStackImpl<>();
+        myStackImpl<int[]> s = new myStackImpl<>();
         s.push(new int[]{i, j});
         while (!(s.isEmpty())) {
             int[] temp = s.peek();
