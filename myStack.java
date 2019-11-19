@@ -1,7 +1,7 @@
 import java.io.PrintStream;
 import java.util.NoSuchElementException;
 
-public interface StringStack<T> {
+public interface myStack<T> {
 
     public boolean isEmpty();
 
