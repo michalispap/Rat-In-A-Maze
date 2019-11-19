@@ -1,7 +1,7 @@
 import java.io.PrintStream;
 import java.util.NoSuchElementException;
 
-public class StringStackImpl<T> implements StringStack<T> {
+public class myStackImpl<T> implements myStack<T> {
     private int size;
     Node<T> head = new Node<>();
 
