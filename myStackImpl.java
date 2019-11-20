@@ -7,7 +7,7 @@ public class myStackImpl<T> implements myStack<T> {
 
     @Override
     public boolean isEmpty() {
-        return size() == 0;
+        return (head == null);
     }
 
     @Override
