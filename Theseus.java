@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Thiseas {
+public class Theseus {
 
     public static void main(String[] args) {
         String myString;
